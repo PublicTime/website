@@ -1,0 +1,80 @@
+---
+layout: basic
+title: Blogging Like a Hacker
+description: This is the description for the governance page
+permalink: /governance.html
+
+---
+
+
+<!-- {{ content }} -->
+
+
+<div class="home__section">
+    <div class="governance__wrapper" id="documents">
+        <div class="sort sort__btn" data-sort="date">
+            Order by ▼
+        </div>
+        <div class="governance__divider"></div>
+        <div class="governance__divider--end"></div>
+        <div class="list">
+        <div class="governance__block">
+            <div class="governance__title">
+                <a href="./documents/pntp_irs_filing_2017.pdf" target="_blank">IRS Tax Filing - 2017</a>
+                <span class="governance__date date">06-11-2018</span>
+            </div>
+            <div class="governance__text">
+                Tax filing with the IRS in 2017.
+            </div>
+        </div>
+        <div class="governance__block">
+            <div class="governance__title">
+                <a href="./documents/bylaws.pdf" target="_blank">Bylaws</a>
+                <span class="governance__date date">08-22-2017</span>
+            </div>
+                <div class="governance__text">
+                Compilation of rules or laws established by our organization to regulate itself, as allowed or requested by some higher authority.
+            </div>
+        </div>
+        <div class="governance__block">
+            <div class="governance__title">
+                <a href="./documents/1023_filing.pdf" target="_blank">1023 Filing</a>
+                <span class="governance__date date">07-28-2017</span>
+            </div>
+                <div class="governance__text">
+                Application to the IRS for federal tax-exempt 501(c)(3) public charity status.
+            </div>
+        </div>
+        <div class="governance__block">
+            <div class="governance__title">
+                <a href="./documents/acceptance_letter.pdf" target="_blank">501(c)(3) Acceptance</a>
+                <span class="governance__date date">07-28-2017</span>
+            </div>
+                <div class="governance__text">
+                Document issued by the IRS formally granting 501(c)(3) public charity status.
+            </div>
+        </div>
+        <div class="governance__block">
+            <div class="governance__title">
+                <a href="./documents/certificate_of_incorp.pdf" target="_blank">Certificate of Incorporation</a>
+                <span class="governance__date date">07-26-2017</span>
+            </div>
+                <div class="governance__text">
+                Document issued by the state of Virginia when our application to form PublicNTP was approved.
+            </div>
+        </div>
+        <div class="governance__block">
+            <div class="governance__title">
+                <a href="./documents/articles_of_incorp.pdf" target="_blank">Articles of Incorporation</a>
+                <span class="governance__date date">07-25-2017</span>
+            </div>
+            <div class="governance__text">
+                Acts as a charter to establish the existence of PublicNTP in the United States and Canada, and is filed with the Secretary
+                of State, or other company registrar. Also referred to as the Certificate of Incorporation or the Corporate Charter.
+            </div>
+        </div>     
+    </div>
+</div>
+
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<script defer src="./js/govern.js"></script>
