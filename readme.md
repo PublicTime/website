@@ -8,3 +8,9 @@ Bundler:
 Run:
 
 ```docker compose up```
+
+
+Build:
+
+```docker compose run jekyll jekyll build```
+
