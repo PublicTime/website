@@ -124,32 +124,6 @@ permalink: blog.html
 	</div>
 	<div class="blog__wrap">
 		<div class="blog__bar"></div>
-
-      {% for post in site.posts %}
-        <div class="blog">
-          <a href="{{ post.url }}" class="blog__left-wrap">
-            <h2 class="blog__title">
-              {{post.title}}
-            </h2>
-            <p class="blog__time">
-              {{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}
-            </p>
-          </a>
-          <a href="{{ post.url }}" class="blog__excerpt">
-            {{post.excerpt}}
-          </a>
-          <a href="{{ post.url }}">
-            <img class="blog__image" src="./images/atlas-adventure.jpg" alt="this.image_urls.[0].alt"> 
-          </a>
-        </div>
-      {% endfor %}
-
-
-
-
-
-
-
 		<div class="blog">
 			<a href='./blog/posts/publicntps-stratum-one-deployment-checklist.html' class="blog__left-wrap">
 				<h2 class="blog__title">
